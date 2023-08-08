@@ -1,0 +1,83 @@
+.attribution {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* My Code below */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --fs-h1: 1.5rem;
+    --fs-p: 1rem;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 322px;
+    max-height: 498px;
+    background-color: #FFFFFF;
+    border-radius: 4%;
+}
+
+.barcode {
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 8%;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #151D30;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: var(--fs-h1);
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #737784;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    font-size: var(--fs-p);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D5E1EF;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .container {
+        height: 667px;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .container {
+        height: 800px;
+    }
+
+}
